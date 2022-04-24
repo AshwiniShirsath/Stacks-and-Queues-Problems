@@ -1,5 +1,7 @@
 package com.bridgelabz.stacksandqueue;
 
+import java.util.Scanner;
+
 class Node {
     public int data;
     public Node next;
@@ -73,6 +75,19 @@ class LinkedList {
             System.out.println("Linked List is Empty.");
         } else {
             head = head.next;
+        }
+    }
+
+    //Method for Peak Pop in Stack
+    public void peakPop() {
+        if(head == null) {
+            System.out.println("Stack is Empty.");
+        } else {
+            while(head != null) {
+                System.out.println("Deleted : "+head.data);
+                head = head.next;
+            }
+            head = null;
         }
     }
 
