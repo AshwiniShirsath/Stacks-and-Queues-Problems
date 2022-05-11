@@ -1,7 +1,7 @@
 package com.bridgelabz.stacksandqueue;
 /*
  * @author : Ashwini 
- * Ability to create a Stack of 56->30->70
+ * Ability to peak and pop from the Stack till it is empty 56->30->70 
  */
 import java.util.Scanner;
 
@@ -27,6 +27,7 @@ public class StackQueue {
                     linkedList.insertFirst(dataFirst);
                     break;
                 case 2:
+                    linkedList.peakPop();
                     break;
                 case 3:
                     linkedList.showLinkedList();
