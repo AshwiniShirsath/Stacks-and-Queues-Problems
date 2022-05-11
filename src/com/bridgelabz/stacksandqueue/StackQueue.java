@@ -1,7 +1,7 @@
 package com.bridgelabz.stacksandqueue;
 /*
- * @author : Ashwini
- * Ability to dequeue from the beginning
+ * @author : Ashwini 
+ * Ability to create a Stack of 56->30->70
  */
 import java.util.Scanner;
 
