@@ -1,5 +1,8 @@
 package com.bridgelabz.stacksandqueue;
-
+/*
+ * @author : Ashwini  
+ * Ability to create a Queue of 56->30->70
+ */
 import java.util.Scanner;
 
 public class StackQueue {
