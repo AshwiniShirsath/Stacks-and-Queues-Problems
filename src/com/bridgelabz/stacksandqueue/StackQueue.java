@@ -1,5 +1,8 @@
 package com.bridgelabz.stacksandqueue;
-
+/*
+ * @author : Ashwini
+ * Ability to dequeue from the beginning
+ */
 import java.util.Scanner;
 
 public class StackQueue {
